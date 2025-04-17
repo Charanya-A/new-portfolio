@@ -21,7 +21,7 @@ const navItems = [
   { href: '/education', icon: <GraduationCap />, label: 'Education' },
   { href: '/skills', icon: <BadgeCheck />, label: 'Skills' },
   { href: '/resume', icon: <FileText />, label: 'Resume' },
-  { href: '/contact', icon: <Contact />, label: 'Contact' },
+  { href: '/connect', icon: <Contact />, label: 'Connect' },
 ]
 
 export default function Navbar() {
