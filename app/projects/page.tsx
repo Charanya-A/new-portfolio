@@ -54,7 +54,7 @@ export default function ProjectsPage() {
                 className="w-full h-full object-cover transition duration-300 group-hover:opacity-30"
               />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                <span className="text-white text-lg font-semibold bg-black bg-opacity-50 px-4 py-2 rounded-md">View Project</span>
+                <span className="text-white text-lg font-semibold bg-gray-400 bg-opacity-50 px-4 py-2 rounded-md">View Project</span>
               </div>
             </div>
 
