@@ -9,12 +9,12 @@ const RootLayout = ({ children }: PropsWithChildren) => {
     <html lang="en">
       <body className="flex min-h-screen bg-zinc-900 text-white">
         {/* Left Section */}
-        <div className="fixed left-0 top-0 w-[35%] h-full ">
+        <div className="fixed left-0 top-0 w-[25%] h-screen z-10">
           <LeftImage />
         </div>
 
-        {/* Main Section */}
-        <div className="mx-[30%] w-[90%] flex flex-col items-center justify-center min-h-screen px-5">
+        {/* Main Section - Wider */}
+        <div className="ml-[26%] mr-[10%] w-[64%] flex flex-col items-center justify-center min-h-screen px-5">
           {children}
         </div>
 
