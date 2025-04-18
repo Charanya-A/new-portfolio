@@ -10,7 +10,6 @@ import {
   Code,
   GraduationCap,
   BadgeCheck,
-  FileText,
   Contact
 } from 'lucide-react'
 
@@ -19,8 +18,7 @@ const navItems = [
   { href: '/experience', icon: <Briefcase />, label: 'Experience' },
   { href: '/projects', icon: <Code />, label: 'Projects' },
   { href: '/education', icon: <GraduationCap />, label: 'Education' },
-  { href: '/skills', icon: <BadgeCheck />, label: 'Skills' },
-  { href: '/resume', icon: <FileText />, label: 'Resume' },
+  { href: '/tech-stack', icon: <BadgeCheck />, label: 'Tech Stack' },
   { href: '/connect', icon: <Contact />, label: 'Connect' },
 ]
 
