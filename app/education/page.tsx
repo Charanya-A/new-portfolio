@@ -1,10 +1,9 @@
 export default function EducationSection() {
   return (
     <section className="w-full px-6 pt-4 pb-12 bg-zinc-900 text-white">
-      <h1 className="text-4xl font-bold text-gray-300 mb-8">Education</h1>
+      <h1 className="text-4xl font-bold text-gray-300 mb-10 sm:pl-25 md:pl-27">Education</h1>
 
       <div className="space-y-6 max-w-3xl mx-auto">
-        {/* Degree 1 */}
         <div className="border border-gray-700 rounded-xl p-6 shadow-md bg-zinc-800 text-white space-y-3">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <h2 className="text-xl font-semibold">Bachelor of Engineering</h2>
@@ -15,7 +14,6 @@ export default function EducationSection() {
           <p className="text-sm font-medium">CGPA - 9.24</p>
         </div>
 
-        {/* Degree 2 */}
         <div className="border border-gray-700 rounded-xl p-6 shadow-md bg-zinc-800 text-white space-y-3">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <h2 className="text-xl font-semibold">Pre-University Course (PUC)</h2>
@@ -26,7 +24,6 @@ export default function EducationSection() {
           <p className="text-sm font-medium">Percentage - 98%</p>
         </div>
 
-        {/* Degree 3 */}
         <div className="border border-gray-700 rounded-xl p-6 shadow-md bg-zinc-800 text-white space-y-3">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <h2 className="text-xl font-semibold">10th Standard</h2>
