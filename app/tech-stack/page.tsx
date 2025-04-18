@@ -23,9 +23,9 @@ const techStack = [
 
 export default function TechStack() {
   return (
-    <section className="w-full py-16 text-white mb-30">
-      <h1 className="text-4xl font-bold text-gray-300 mb-8">Tech Stack</h1>
-      <p className="text-gray-300 mb-8">
+    <section className="w-full py-16 text-white mb-30 sm:pl-16 md:pl-18">
+      <h1 className="text-4xl font-bold text-gray-300 mb-8 sm:pl-10 md:pl-12">Tech Stack</h1>
+      <p className="text-gray-300 mb-8 sm:pl-10 md:pl-12">
         I work with a wide range of tools and technologies to build modern and efficient applications. Here are some of my favorites.
       </p>
 
