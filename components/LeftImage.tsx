@@ -6,22 +6,18 @@ export default function LeftImage() {
     <div className="h-full w-full flex items-center justify-center">
       <div className="bg-gray-200 dark:bg-gray-800 px-6 py-8 rounded-2xl w-[290px] h-[70%] flex flex-col justify-between items-center text-center shadow-xl">
         
-        {/* Top Section: Profile Info */}
         <div className="flex flex-col items-center">
-          {/* Profile Image */}
           <img
             src="/profile.png"
             alt="Profile"
             className="w-32 h-32 rounded-xl object-cover border-[3px] border-black dark:border-white"
           />
 
-          {/* Name */}
           <h2 className="mt-4 text-lg font-bold text-gray-900 dark:text-white">
             Charanya A
           </h2>
           <p className="text-gray-500 text-sm mb-5">Bringing designs to life</p>
 
-          {/* Social Icons */}
           <div className="flex items-center justify-center space-x-4 mb-4">
             <a href="#" className="bg-white dark:bg-gray-700 p-3 rounded-full shadow hover:scale-105 transition">
               <FaGithub className="text-xl text-gray-800 dark:text-white" />
@@ -35,13 +31,11 @@ export default function LeftImage() {
           </div>
         </div>
 
-        {/* Middle Section: Email */}
         <div className="flex items-center text-sm text-gray-700 dark:text-gray-300 mb-4">
           <MailIcon className="w-4 h-4 mr-2" />
           <span>charanya.1si21is015@gmail.com</span>
         </div>
 
-        {/* Bottom Section: Resume Download */}
         <a
           href="/resume.pdf"
           download
