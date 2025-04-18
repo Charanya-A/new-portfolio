@@ -24,7 +24,7 @@ export default function ConnectSection() {
   return (
     <section className="w-full px-6 py-12 bg-zinc-900 text-white flex flex-col items-center">
       <div className="max-w-4xl w-full bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-gray-600">
-        <h2 className="text-4xl font-bold text-center text-white mb-4">Let’s Connect!</h2>
+        <h2 className="text-4xl font-bold text-center text-gray-300 mb-4">Let’s Connect!</h2>
         <p className="text-center text-gray-300 mb-8">
           Got a question, a project in mind, or just want to chat? Drop me a line—I'd love to hear from you!
         </p>
@@ -37,7 +37,7 @@ export default function ConnectSection() {
               placeholder="First Name"
               value={form.fname}
               onChange={handleChange}
-              className="p-3 rounded-md w-full bg-white text-black border border-gray-400"
+              className="p-3 rounded-md w-full bg-gray-200 text-black border border-gray-400"
               required
             />
             <input
@@ -46,7 +46,7 @@ export default function ConnectSection() {
               placeholder="Last Name"
               value={form.lname}
               onChange={handleChange}
-              className="p-3 rounded-md w-full bg-white text-black border border-gray-400"
+              className="p-3 rounded-md w-full bg-gray-200 text-black border border-gray-400"
               required
             />
           </div>
@@ -57,7 +57,7 @@ export default function ConnectSection() {
             placeholder="Your Email"
             value={form.email}
             onChange={handleChange}
-            className="p-3 rounded-md w-full bg-white text-black border border-gray-400"
+            className="p-3 rounded-md w-full bg-gray-200 text-black border border-gray-400"
             required
           />
 
@@ -67,7 +67,7 @@ export default function ConnectSection() {
             rows={5}
             value={form.message}
             onChange={handleChange}
-            className="p-3 rounded-md w-full bg-white text-black border border-gray-400"
+            className="p-3 rounded-md w-full bg-gray-200 text-black border border-gray-400"
             required
           />
 
