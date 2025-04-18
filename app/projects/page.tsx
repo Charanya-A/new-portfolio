@@ -44,7 +44,7 @@ export default function ProjectsPage() {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-700 shadow-md transition-transform transform hover:scale-[1.01]"
+            className="group rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 shadow-md transition-transform transform hover:scale-[1.01]"
           >
             <div className="relative h-28 w-full overflow-hidden">
               <img

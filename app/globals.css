@@ -19,6 +19,24 @@
   .animate-marquee-reverse {
     animation: marquee-reverse 25s linear infinite;
   }
+
+  @layer utilities {
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-6px);
+      }
+    }
+  
+    .animate-float {
+      animation: float 2s ease-in-out infinite; 
+      will-change: transform;
+    }
+  }
+  
+  
   
   
   
