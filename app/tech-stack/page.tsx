@@ -25,34 +25,21 @@ export default function TechStack() {
   return (
     <section className="w-full py-16 text-white mb-30">
       <h1 className="text-4xl font-bold text-gray-300 mb-8">Tech Stack</h1>
-      <p className="text-gray-300">
+      <p className="text-gray-300 mb-8">
         I work with a wide range of tools and technologies to build modern and efficient applications. Here are some of my favorites.
       </p>
 
-      <div className="overflow-hidden space-y-6 mt-10">
-        <div className="whitespace-nowrap animate-marquee flex gap-10">
-          {techStack.map((tech, idx) => (
-            <div
-              key={idx}
-              className="inline-flex items-center gap-2 text-xl px-6 py-2 text-gray-300 transition-all duration-200 hover:scale-105"
-            >
-              <span className="text-3xl">{tech.icon}</span>
-              <span>{tech.name}</span>
-            </div>
-          ))}
-        </div>
-
-        <div className="whitespace-nowrap animate-marquee-reverse flex gap-10">
-          {techStack.map((tech, idx) => (
-            <div
-              key={idx}
-              className="inline-flex items-center gap-2 text-xl px-6 py-2 text-gray-300 transition-all duration-200 hover:scale-105"
-            >
-              <span className="text-3xl">{tech.icon}</span>
-              <span>{tech.name}</span>
-            </div>
-          ))}
-        </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 justify-center">
+        {techStack.map((tech, idx) => (
+          <div
+            key={idx}
+            className="flex flex-col items-center gap-2 text-gray-300 transition-all duration-200 hover:scale-110 hover:shadow-lg hover:text-gray-900 transform-gpu opacity-0 animate-fadeIn"
+            style={{ animationDelay: `${idx * 100}ms` }}
+          >
+            <span className="text-4xl">{tech.icon}</span>
+            <span className="text-sm text-center">{tech.name}</span>
+          </div>
+        ))}
       </div>
     </section>
   )
