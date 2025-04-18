@@ -30,7 +30,6 @@ export default function TechStack() {
       </p>
 
       <div className="overflow-hidden space-y-6 mt-10">
-        {/* Top Row - left to right */}
         <div className="whitespace-nowrap animate-marquee flex gap-10">
           {techStack.map((tech, idx) => (
             <div
@@ -43,7 +42,6 @@ export default function TechStack() {
           ))}
         </div>
 
-        {/* Bottom Row - right to left */}
         <div className="whitespace-nowrap animate-marquee-reverse flex gap-10">
           {techStack.map((tech, idx) => (
             <div
