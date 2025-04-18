@@ -20,15 +20,6 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* CTA Buttons */}
-        <div className="pt-4 space-x-4">
-          <button className="px-6 py-2 bg-white text-black font-medium rounded-full hover:bg-gray-200 transition">
-            See My Work
-          </button>
-          <button className="px-6 py-2 border border-white text-white font-medium rounded-full hover:bg-white hover:text-black transition">
-            Contact Me
-          </button>
-        </div>
       </div>
     </section>
   );
