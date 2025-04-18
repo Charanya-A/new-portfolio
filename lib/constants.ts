@@ -1,4 +1,3 @@
-// lib/constants.ts
 export const NAV_LINKS = [
     { label: 'Home', href: '/' },
     { label: 'Experience', href: '/experience' },
