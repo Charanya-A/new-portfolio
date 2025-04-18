@@ -46,7 +46,6 @@ export default function ProjectsPage() {
             rel="noopener noreferrer"
             className="group rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-700 shadow-md transition-transform transform hover:scale-[1.01]"
           >
-            {/* Project Image with Hover Overlay */}
             <div className="relative h-28 w-full overflow-hidden">
               <img
                 src={project.image}
@@ -58,7 +57,6 @@ export default function ProjectsPage() {
               </div>
             </div>
 
-            {/* Title & Description */}
             <div className="p-4">
               <h3 className="text-xl font-bold mb-1 text-black dark:text-white">{project.title}</h3>
               <p className="text-sm text-gray-700 dark:text-gray-300">{project.description}</p>
